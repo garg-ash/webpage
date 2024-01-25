@@ -1,0 +1,197 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.head
+{
+    background-color: #e0d9c9;
+    width: 100%;
+    /* height: 60px; */
+}
+button
+{
+    color: #cea968;
+}
+.success
+{
+    width: 100%;
+    /* height: 500px; */
+    background-color: #e0d9c9;
+}
+.success_content a
+{
+    color: #cea968;
+    text-decoration: none;
+}
+.success_content h1
+{
+    font-size: 4rem;
+}
+.success_content h1 span
+{
+    color: #cea968;
+}
+.success_image
+{
+    height: 500px;
+    width: 300px;
+    margin: auto;
+}
+.success_image img
+{
+    height: 100%;
+    width: 100%;
+}
+/* logo section starts */
+.logo
+{
+    width: 100%;
+    /* height: 150px; */
+    background-color: #f9f4ee;
+}
+.logo_image
+{
+    height: 120px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.logo_image img
+{
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+}
+.about_us
+{
+    width: 100%;
+    height: 500px;
+    background-color: #f9f4ee;
+}
+.about_content a
+{
+    color: #cea968;
+    text-decoration: none;
+}
+.card-body
+{
+  background-color:#f9f4ee;
+  border: 1px solid #f9f4ee;
+}
+.card
+{
+    margin-top: 30px;
+}
+.about_image
+{
+    height: 350px;
+    width: 300px;
+}
+.about_image img
+{
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+    box-shadow: 15px 15px 3px #cea968;
+}
+/* choose section starts */
+.choose
+{
+    width: 100%;
+    /* height: 500px; */
+    background-color: #072b27;
+}
+.choose h5
+{
+    color: #cea968;
+    text-align: center;
+    padding-top: 3.5rem;
+}
+.choose h1
+{
+    color: white;
+    text-align: center;
+}
+.choose_first h1
+{
+    color: #cea968;
+    padding-top: 40px;
+    font-size: 3rem;
+    text-align: left;
+    padding: 0 50px;
+}
+.choose_first p
+{
+    color: white;
+    padding: 10px 50px;
+}
+.choose_first button
+{
+    margin: 10px 50px;
+}
+.choose_second h2
+{
+    color: #cea968;
+    text-align: center;
+}
+.choose_second p
+{
+    color: white;
+    padding: 10px 100px;
+    text-align: left;
+}
+/* --------what we do section starts----------- */
+.what
+{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+.what h5
+{
+    text-align: center;
+    color: #cea968;
+    padding-top: 50px;
+}
+.what h1
+{
+    text-align: center;
+}
+.what p
+{
+    text-align: center;
+    padding: 0 50px;
+}
+.what_box
+{
+    height: 200px;
+    width: auto;
+    background-color: white;
+    border: 1px solid gray;
+    position: relative;
+}
+.law_link
+{
+    margin-top: 140px;
+}
+.law_link a
+{
+    margin: 0px 20px;
+    text-decoration: none;
+    align-items: flex-end;
+}
+i.fa-solid.fa-scale-balanced {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+i.fa-solid.fa-arrow-right {
+    position: absolute;
+    top: 145px;
+    left: 302px;
+}
