@@ -66,6 +66,7 @@ button
     height: 100%;
     width: 100%;
     padding: 0 20px;
+    filter: grayscale();
 }
 .about_us
 {
@@ -149,7 +150,7 @@ button
 .what
 {
     width: 100%;
-    height: 600px;
+    padding: 30px;
     background-color: white;
 }
 .what h5
@@ -194,4 +195,70 @@ i.fa-solid.fa-arrow-right {
     position: absolute;
     top: 145px;
     left: 302px;
+}
+/* Review section starts */
+.review
+{
+    width: 100%;
+    padding: 30px;
+    background-color: #f9f4ee;
+    position: relative;
+}
+.review h6
+{
+    text-align: center;
+    color: #cea968;
+    padding-top: 50px;
+}
+.review h1
+{
+    text-align: center;
+}
+.review_box
+{
+    height: 180px;
+    width: 550px;
+    background-color: white;
+}
+.review_content
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.review_image
+{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+}
+.review_image img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.review_name h5
+{
+    font-size: 16px;
+    margin: 30px 10px;
+}
+.review_name h4
+{
+    font-size: 14px;
+    position: absolute;
+    top: 285px;
+    left: 200px;
+}
+.review p
+{
+    margin: 10px;
+}
+i.fa-brands.fa-twitter {
+    color: blue;
+    font-size: 20px;
+    position: absolute;
+    top: 260px;
+    left: 620px;
 }
